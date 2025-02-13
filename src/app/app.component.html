@@ -1,0 +1,13 @@
+<mat-card class="calculator">
+  <mat-form-field appearance="outline" class="input-field">
+    <input matInput type="text" [(ngModel)]="expression" readonly>
+  </mat-form-field>
+  
+  <div class="button-grid">
+    <div *ngFor="let row of buttons">
+      <button *ngFor="let btn of row" mat-raised-button color="primary" (click)="onButtonClick(btn)">
+        {{ btn }}
+      </button>
+    </div>
+  </div>
+</mat-card>

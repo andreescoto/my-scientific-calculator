@@ -1,0 +1,29 @@
+.calculator {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+  }
+  
+  .button-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .button-grid div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 18px;
+    width: 60px;
+    height: 50px;
+  }
+  
